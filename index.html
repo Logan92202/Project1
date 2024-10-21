@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="tabs">
+    <button onclick="showTab('about')">About</button>
+    <button onclick="showTab('persona1')">Persona 1</button>
+    <button onclick="showTab('persona2')">Persona 2</button>
+    <button onclick="showTab('scenario1')">Scenario 1</button>
+    <button onclick="showTab('scenario2')">Scenario 2</button>
+    <button onclick="showTab('storyboard')">Storyboard</button>
+    <button onclick="showTab('moodboard')">Moodboard</button>
+</div>
+
+<div id="content">
+    <div id="about" class="tab-content" style="display:none;">
+        <h2>About the Project</h2>
+        <div class="about-section">
+            <label for="name">Name:</label>
+            <span id="name">Logan Atty</span>
+        </div>
+
+        <div class="about-section">
+            <label for="panther-id">Panther ID:</label>
+            <span id="panther-id">6298431</span>
+        </div>
+
+        <div class="about-section">
+            <label for="panther-email">Panther Email:</label>
+            <span id="panther-email">latty001@fiu.edu</span>
+        </div>
+
+        <div class="about-section">
+            <label>Logo:</label>
+            <img src="logo.jpg" alt="Logo" class="about-logo">
+        </div>
+
+
+        <div class="about-section">
+            <label for="website-name">Website Name:</label>
+            <span id="website-name">Discover South East Florida</span>
+        </div>
+    </div>
+
+    <div id="persona1" class="tab-content" style="display:none;">
+        <h2>Persona 1</h2>
+        <div class="persona-container">
+            <img src="persona1.jpg" alt="Persona 1" class="persona-image">
+            <div class="persona-descriptors">
+                <div class="descriptor">
+                    <strong>Persona Type:</strong> <span> Single Young Adult </span>
+                </div>
+                <div class="descriptor">
+                    <strong>Name:</strong> <span> Mirel </span>
+                </div>
+                <div class="descriptor">
+                    <strong>Age:</strong> <span> 24 </span>
+                </div>
+                <div class="descriptor">
+                    <strong>Location:</strong> <span> Miami </span>
+                </div>
+                <div class="descriptor">
+                    <strong>Technical Comfort:</strong> <span> Advanced </span>
+                </div>
+                <div class="descriptor">
+                    <strong>Profession:</strong> <span> Junior Software Engineer </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-box">
+            <blockquote>
+                "Now that I'm out of school and working I am looking to get out there and find fun things to do and new people to meet!" -Mirel
+            </blockquote>
+        </div>
+
+        <div class="categories">
+            <div class="category">
+                <h3>Backstory</h3>
+                <ul>
+                    <li>Has spent most of his life in education and pursuing internships with limited free time.</li>
+                    <li>Recently found employment as a full time junior SWE and with this done he is ready to find new and exciting experiences to enjoy.</li>
+                    <li>Likes music, long time interest of going to festivals/concerts.</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Motivations</h3>
+                <ul>
+                    <li>Wants to get to know the city he's lived in his whole life but never explored.</li>
+                    <li>With a more set-schedule he is looking to structure his life more.</li>
+                    <li>He wants to participate in common South Florida activities like a day at the beach.</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Frustrations</h3>
+                <ul>
+                    <li>Does not know where to get started/where to find events/fun places to visit.</li>
+                    <li>Most of his peers are spread out across the states since he works remote, so he doesn't know anyone locally.</li>
+                    <li>Given his profession, he feels he spends too much time indoors.</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Ideal Experience</h3>
+                <ul>
+                    <li>Find an event to go to from the website and meet new people there.</li>
+                    <li>Make local friends to go to festivals, beach day events, and enjoy what the area has to offer.</li>
+                    <li>Spend time outside in the sun.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="persona2" class="tab-content" style="display:none;">
+        <h2>Persona 2</h2>
+        <div class="persona-container">
+            <img src="persona2.jpg" alt="Persona 2" class="persona-image">
+            <div class="persona-descriptors">
+                <div class="descriptor">
+                    <strong>Persona Type:</strong> <span>Mother & Father</span>
+                </div>
+                <div class="descriptor">
+                    <strong>Names:</strong> <span>Astrid & Karl</span>
+                </div>
+                <div class="descriptor">
+                    <strong>Age:</strong> <span>42 & 43</span>
+                </div>
+                <div class="descriptor">
+                    <strong>Location:</strong> <span>Kalmar, Sweden</span>
+                </div>
+                <div class="descriptor">
+                    <strong>Technical Comfort:</strong> <span>Moderate</span>
+                </div>
+                <div class="descriptor">
+                    <strong>Profession:</strong> <span>Healthcare & Banker</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-box">
+            <blockquote>
+                "We've been always wanting to visit the United States, Karl suggested we fly to Miami International and go from there." -Astrid
+            </blockquote>
+        </div>
+
+        <div class="categories">
+            <div class="category">
+                <h3>Backstory</h3>
+                <ul>
+                    <li>Both work long hours, mostly indoors.</li>
+                    <li>Parents to 3 children.</li>
+                    <li>Born and raised in Sweden.</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Motivations</h3>
+                <ul>
+                    <li>With the holidays coming they figured now is as good as time as any to travel.</li>
+                    <li>Now that their youngest is a bit older they feel more comfortable going on vacations again.</li>
+                    <li>They've been wanting to go to the United States, just haven't been sure where exactly.</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Frustrations</h3>
+                <ul>
+                    <li>Frustration 1</li>
+                    <li>Frustration 2</li>
+                    <li>Frustration 3</li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Ideal Experience</h3>
+                <ul>
+                    <li>Experience 1</li>
+                    <li>Experience 2</li>
+                    <li>Experience 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="scenario1" class="tab-content" style="display:none;">Scenario 1 description...</div>
+    <div id="scenario2" class="tab-content" style="display:none;">Scenario 2 description...</div>
+    <div id="storyboard" class="tab-content" style="display:none;">Storyboard visuals...</div>
+    <div id="moodboard" class="tab-content" style="display:none;">Moodboard collection...</div>
+</div>
+
+<script>
+    function showTab(tabId) {
+        // Hide all tab content
+        const tabs = document.querySelectorAll('.tab-content');
+        tabs.forEach(tab => {
+            tab.style.display = 'none';
+        });
+
+        // Show the selected tab
+        const selectedTab = document.getElementById(tabId);
+        if (selectedTab) {
+            selectedTab.style.display = 'block';
+        }
+
+        // Remove 'active' class from all buttons
+        const buttons = document.querySelectorAll('.tabs button');
+        buttons.forEach(button => {
+            button.classList.remove('active');
+        });
+
+        // Add 'active' class to the clicked button
+        const clickedButton = document.querySelector(`[onclick="showTab('${tabId}')"]`);
+        if (clickedButton) {
+            clickedButton.classList.add('active');
+        }
+    }
+
+    // Automatically show the About tab on initial load
+    document.addEventListener('DOMContentLoaded', () => {
+        showTab('about');
+    });
+</script>
+</body>
+</html>
