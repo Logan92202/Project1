@@ -46,29 +46,29 @@ body {
 
 .about-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 20px; /* Space between columns */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
 .left-column {
     display: flex;
-    flex-direction: column; /* Stack group members vertically */
+    flex-direction: column;
 }
 
 .right-column {
     display: flex;
-    flex-direction: column; /* Stack website name and logo vertically */
-    align-items: center; /* Center align contents in the right column */
-    justify-content: flex-start; /* Align items to the top */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     margin-left: -800px;
 }
 
 .about-section {
-    margin-bottom: 10px; /* Keep the margin for individual sections */
+    margin-bottom: 10px;
 }
 
 .group-member {
-    margin-bottom: 20px; /* Space between group members */
+    margin-bottom: 20px;
 }
 
 .center-content {
@@ -87,8 +87,8 @@ label {
 }
 
 .about-logo {
-    width: 190px; /* Adjust logo width as needed */
-    height: auto; /* Keep aspect ratio */
+    width: 190px;
+    height: auto;
 }
 
 .logo-container {
