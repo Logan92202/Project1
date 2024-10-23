@@ -28,7 +28,6 @@ body {
     background-color: #e0e0e0;
 }
 
-
 .tabs button.active {
     background-color: #ccc;
     border-color: #999;
@@ -45,8 +44,36 @@ body {
     display: block;
 }
 
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column; /* Stack group members vertically */
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column; /* Stack website name and logo vertically */
+    align-items: center; /* Center align contents in the right column */
+    justify-content: flex-start; /* Align items to the top */
+    margin-left: -800px;
+}
+
 .about-section {
-    margin-bottom: 15px;
+    margin-bottom: 10px; /* Keep the margin for individual sections */
+}
+
+.group-member {
+    margin-bottom: 20px; /* Space between group members */
+}
+
+.center-content {
+    text-align: center;
+    margin-top: 40px;
 }
 
 label {
@@ -60,10 +87,13 @@ label {
 }
 
 .about-logo {
-    width: 100px;
-    height: auto;
-    display: inline-block;
-    vertical-align: middle;
+    width: 190px; /* Adjust logo width as needed */
+    height: auto; /* Keep aspect ratio */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .persona-container {
@@ -111,4 +141,6 @@ label {
 h3 {
     margin-top: 0;
 }
+
+
 
