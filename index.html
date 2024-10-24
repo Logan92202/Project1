@@ -25,63 +25,62 @@
         <div class="about-container">
             <div class="left-column">
                 <h3>Group Members:</h3>
-                <!-- Member 1 -->
+
+                <!-- Template -->
                 <div class="group-member">
                     <div class="about-section">
-                        <label for="member1-name">Name:</label>
-                        <span id="member1-name">Logan Atty</span>
+                        <label for="member-name">Name:</label>
+                        <span id="member-name">Logan Atty</span>
                     </div>
                     <div class="about-section">
-                        <label for="member1-panther-id">Panther ID:</label>
-                        <span id="member1-panther-id">6298431</span>
+                        <label for="member-panther-id">Panther ID:</label>
+                        <span id="member-panther-id">6298431</span>
                     </div>
                     <div class="about-section">
-                        <label for="member1-panther-email">Panther Email:</label>
-                        <span id="member1-panther-email">latty001@fiu.edu</span>
+                        <label for="member-panther-email">Panther Email:</label>
+                        <span id="member-panther-email">latty001@fiu.edu</span>
                     </div>
                     <div class="about-section">
-                        <label for="member1-role">Role:</label>
-                        <span id="member1-role">About/Personas</span>
+                        <label for="member-role">Role:</label>
+                        <span id="member-role">About/Personas</span>
                     </div>
                 </div>
 
-                <!-- Member 2 -->
                 <div class="group-member">
                     <div class="about-section">
-                        <label for="member2-name">Name:</label>
-                        <span id="member2-name">Aldo Vega</span>
+                        <label for="member-name">Name:</label>
+                        <span id="member-name">Aldo Vega</span>
                     </div>
                     <div class="about-section">
-                        <label for="member2-panther-id">Panther ID:</label>
-                        <span id="member2-panther-id">6314422</span>
+                        <label for="member-panther-id">Panther ID:</label>
+                        <span id="member-panther-id">6314422</span>
                     </div>
                     <div class="about-section">
-                        <label for="member2-panther-email">Panther Email:</label>
-                        <span id="member2-panther-email">avega146@fiu.edu</span>
+                        <label for="member-panther-email">Panther Email:</label>
+                        <span id="member-panther-email">avega146@fiu.edu</span>
                     </div>
                     <div class="about-section">
-                        <label for="member2-role">Role:</label>
-                        <span id="member2-role">Scenarios</span>
+                        <label for="member-role">Role:</label>
+                        <span id="member-role">Scenarios</span>
                     </div>
                 </div>
 
-                <!-- Member 3 -->
                 <div class="group-member">
                     <div class="about-section">
-                        <label for="member3-name">Name:</label>
-                        <span id="member3-name">Guillermo Medina</span>
+                        <label for="member-name">Name:</label>
+                        <span id="member-name">Guillermo Medina</span>
                     </div>
                     <div class="about-section">
-                        <label for="member3-panther-id">Panther ID:</label>
-                        <span id="member3-panther-id">6236211</span>
+                        <label for="member-panther-id">Panther ID:</label>
+                        <span id="member-panther-id">6236211</span>
                     </div>
                     <div class="about-section">
-                        <label for="member3-panther-email">Panther Email:</label>
-                        <span id="member3-panther-email">gmedi062@fiu.edu</span>
+                        <label for="member-panther-email">Panther Email:</label>
+                        <span id="member-panther-email">gmedi062@fiu.edu</span>
                     </div>
                     <div class="about-section">
-                        <label for="member3-role">Role:</label>
-                        <span id="member3-role">Storyboard/Moodboard</span>
+                        <label for="member-role">Role:</label>
+                        <span id="member-role">Storyboard/Moodboard</span>
                     </div>
                 </div>
             </div>
@@ -99,6 +98,42 @@
             </div>
         </div>
     </div>
+</div>
+
+<style>
+    /* mobile */
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left-column, .right-column {
+        width: 100%;
+        padding: 10px;
+    }
+    .group-member {
+        margin-bottom: 20px;
+    }
+    .about-logo {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+    @media (min-width: 768px) {
+        .about-container {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .left-column {
+            width: 60%;
+        }
+        .right-column {
+            width: 35%;
+            text-align: center;
+        }
+    }
+</style>
 
     <div id="persona1" class="tab-content" style="display:none;">
         <h2>Persona 1</h2>
