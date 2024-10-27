@@ -16,6 +16,7 @@
     <button onclick="showTab('scenario2')">Scenario 2</button>
     <button onclick="showTab('storyboard')">Storyboard</button>
     <button onclick="showTab('moodboard')">Moodboard</button>
+    <button onclick="showTab('flowchart')">Flowchart</button>
 </div>
 
 <div id="content">
@@ -49,38 +50,38 @@
                 <div class="group-member">
                     <div class="about-section">
                         <label for="member-name">Name:</label>
-                        <span id="member-name">Aldo Vega</span>
+                        <span id="member-name1">Aldo Vega</span>
                     </div>
                     <div class="about-section">
                         <label for="member-panther-id">Panther ID:</label>
-                        <span id="member-panther-id">6314422</span>
+                        <span id="member-panther-id1">6314422</span>
                     </div>
                     <div class="about-section">
                         <label for="member-panther-email">Panther Email:</label>
-                        <span id="member-panther-email">avega146@fiu.edu</span>
+                        <span id="member-panther-email1">avega146@fiu.edu</span>
                     </div>
                     <div class="about-section">
                         <label for="member-role">Role:</label>
-                        <span id="member-role">Scenarios</span>
+                        <span id="member-role1">Scenarios</span>
                     </div>
                 </div>
 
                 <div class="group-member">
                     <div class="about-section">
                         <label for="member-name">Name:</label>
-                        <span id="member-name">Guillermo Medina</span>
+                        <span id="member-name2">Guillermo Medina</span>
                     </div>
                     <div class="about-section">
                         <label for="member-panther-id">Panther ID:</label>
-                        <span id="member-panther-id">6236211</span>
+                        <span id="member-panther-id2">6236211</span>
                     </div>
                     <div class="about-section">
                         <label for="member-panther-email">Panther Email:</label>
-                        <span id="member-panther-email">gmedi062@fiu.edu</span>
+                        <span id="member-panther-email2">gmedi062@fiu.edu</span>
                     </div>
                     <div class="about-section">
                         <label for="member-role">Role:</label>
-                        <span id="member-role">Storyboard/Moodboard</span>
+                        <span id="member-role2">Storyboard/Moodboard</span>
                     </div>
                 </div>
             </div>
@@ -285,7 +286,7 @@
 <div id="storyboard" class="tab-content" style="display:none;">
     <h2>Storyboard</h2>
  <img src="storyboard.jpeg" alt="Storyboard" 
- style="max-width: 100%; max-height: 800px; display: block; margin: 0 auto; margin-left: 70;"  />
+ style="max-width: 100%; max-height: 800px; display: block; margin: 0 auto; margin-left: 70px;"  />
  
 </div>
 <div id="moodboard" class="tab-content" style="display:none;">
@@ -293,7 +294,11 @@
     <img src="moodboard.jpeg" alt="Moodboard" 
     style="max-width: 100%; max-height: 800px; display: block; margin: 0 auto;"  />/>
 </div>
+<div id="flowchart" class="tab-content" style="display:none;">
+    <h2>Flowchart</h2>
+    <img src="ProjectFlowchart.png" alt="Flowchart" class="flowchart-image">
 </div>
+
 
 <script>
     function showTab(tabId) {
